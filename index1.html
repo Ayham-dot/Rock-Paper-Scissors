@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Time!</title>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
-<link rel="stylesheet" href="game.css">
-<script src="main.js"></script>
+    <h1 class="center">Good Luck!</h1>
+    
+    <div id="choices">
+        <button class="choice" data-choice="Rock">Rock</button>
+        <button class="choice" data-choice="Paper">Paper</button>
+        <button class="choice" data-choice="Scissors">Scissors</button>
+    </div>
 
+    <div id="images">
+        <div class="imageContainer" id="playerImage">
+            <img id="Rock" src="C:\Users\kraie\Downloads\rock.jpg" alt="Rock">
+            <img id="Paper" src="C:\Users\kraie\Downloads\paper.jpg" alt="Paper">
+            <img id="Scissors" src="C:\Users\kraie\Downloads\scissors.jpg" alt="Scissors">
+        </div>
+        <div class="imageContainer" id="botImage">
+            <img id="RockBot" src="C:\Users\kraie\Downloads\rock.jpg" alt="Rock">
+            <img id="PaperBot" src="C:\Users\kraie\Downloads\paper.jpg" alt="Paper">
+            <img id="ScissorsBot" src="C:\Users\kraie\Downloads\scissors.jpg" alt="Scissors">
+        </div>
+    </div>
+
+    <div id="result"></div>
+    <div id="playerScore">Player Score: 0</div>
+    <div id="botScore">Computer Score: 0</div>
 </body>
 </html>

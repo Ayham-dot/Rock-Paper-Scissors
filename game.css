@@ -1,3 +1,47 @@
 body{
     background-color: rgb(128, 15, 130);
 }
+h1{
+    color: aliceblue;
+}
+.center{
+    text-align: center;
+}
+#images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#images .imageContainer {
+    flex: 1;
+    text-align: center;
+}
+
+#playerImage {
+    text-align: left;
+}
+
+#botImage {
+    text-align: right; 
+}
+
+#images img {
+    display: none; 
+    width: 100px;
+    height: auto;
+}
+.choice{
+    background-color: #45a049;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 50px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.botImage{
+    margin-right: right
+}
